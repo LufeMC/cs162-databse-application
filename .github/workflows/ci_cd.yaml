@@ -28,7 +28,7 @@ jobs:
           python3 -m flask run > /dev/null &
           sleep 5
         env:
-          DATABASE_USERNAME: "sqlite:///web.db"
+          DATABASE_USERNAME: "sql9603183"
           DATABASE_PASSWORD: "PVzbLaK4dI"
           DATABASE_HOST: "sql9.freemysqlhosting.net"
           DATABASE_PORT: 3306
