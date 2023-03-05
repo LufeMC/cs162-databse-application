@@ -17,7 +17,6 @@ class Config:
     db_host = env['DATABASE_HOST']
     db_port = env['DATABASE_PORT']
     db_name = env['DATABASE_NAME']
-    print(db_name, db_pass, db_host, db_port, db_user)
 
     SQLALCHEMY_DATABASE_URI = f"mysql://{db_user}:{db_pass}@{db_host}:{db_port}/{db_name}"\
         or 'sqlite:///' + os.path.join(basedir, 'app.db')
