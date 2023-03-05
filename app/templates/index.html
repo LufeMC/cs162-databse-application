@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="add-modal-container" id="add-modal-container">
+      <form
+        class="add-modal"
+        id="add-new-task-form"
+        action="http://127.0.0.1:5000/home/add"
+        method="POST"
+      >
+        <h2>Add New Task</h2>
+        <div class="inputs">
+          <input id="task-name" placeholder="Task name" name="name" />
+          <textarea
+            id="task-description"
+            placeholder="Task description"
+            rows="4"
+            name="description"
+          ></textarea>
+        </div>
+        <button type="submit" class="default-button">Add task!</button>
+      </form>
+    </div>
+    <main>
+      <button class="default-button" id="add-new-task-button">Add Task</button>
+      <div class="kanban">
+        <div class="column" id="to-do">
+          <div class="header">To-do</div>
+          <div class="tasks-list">
+            {% for task in tasks.toDo %}
+            <div class="task">
+              <div class="header">
+                <form
+                  action="http://127.0.0.1:5000/home/previous"
+                  method="post"
+                >
+                  <input class="taskId" value="{{task['uuid']}}" name="uuid" />
+                  <img
+                    type="submit"
+                    src="/static/img/arrow-left.svg"
+                    class="hidden"
+                  />
+                </form>
+                <div class="actions">
+                  <span>{{task['name']}}</span>
+                  <form
+                    action="http://127.0.0.1:5000/home/delete"
+                    method="POST"
+                  >
+                    <input
+                      class="taskId"
+                      value="{{task['uuid']}}"
+                      name="uuid"
+                    />
+                    <button type="submit">
+                      <img src="/static/img/trash.svg" />
+                    </button>
+                  </form>
+                </div>
+                <form action="http://127.0.0.1:5000/home/next" method="POST">
+                  <input class="taskId" value="{{task['uuid']}}" name="uuid" />
+                  <button type="submit">
+                    <img src="/static/img/arrow-right.svg" />
+                  </button>
+                </form>
+              </div>
+              <div class="description">{{task['description']}}</div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="column" id="doing">
+          <div class="header">Doing</div>
+          <div class="tasks-list">
+            {% for task in tasks.doing %}
+            <div class="task">
+              <div class="header">
+                <form
+                  action="http://127.0.0.1:5000/home/previous"
+                  method="POST"
+                >
+                  <input class="taskId" value="{{task['uuid']}}" name="uuid" />
+                  <button type="submit">
+                    <img src="/static/img/arrow-left.svg" />
+                  </button>
+                </form>
+                <div class="actions">
+                  <span>{{task['name']}}</span>
+                  <form
+                    action="http://127.0.0.1:5000/home/delete"
+                    method="POST"
+                  >
+                    <input
+                      class="taskId"
+                      value="{{task['uuid']}}"
+                      name="uuid"
+                    />
+                    <button type="submit">
+                      <img src="/static/img/trash.svg" />
+                    </button>
+                  </form>
+                </div>
+                <form action="http://127.0.0.1:5000/home/next" method="POST">
+                  <input class="taskId" value="{{task['uuid']}}" name="uuid" />
+                  <button type="submit">
+                    <img src="/static/img/arrow-right.svg" />
+                  </button>
+                </form>
+              </div>
+              <div class="description">{{task['description']}}</div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="column" id="done">
+          <div class="header">Done</div>
+          <div class="tasks-list">
+            {% for task in tasks.done %}
+            <div class="task">
+              <div class="header">
+                <form
+                  action="http://127.0.0.1:5000/home/previous"
+                  method="POST"
+                >
+                  <input class="taskId" value="{{task['uuid']}}" name="uuid" />
+                  <button type="submit">
+                    <img src="/static/img/arrow-left.svg" />
+                  </button>
+                </form>
+                <div class="actions">
+                  <span>{{task['name']}}</span>
+                  <form
+                    action="http://127.0.0.1:5000/home/delete"
+                    method="POST"
+                  >
+                    <input
+                      class="taskId"
+                      value="{{task['uuid']}}"
+                      name="uuid"
+                    />
+                    <button type="submit">
+                      <img src="/static/img/trash.svg" />
+                    </button>
+                  </form>
+                </div>
+                <form action="http://127.0.0.1:5000/home/next" method="POST">
+                  <input class="taskId" value="{{task['uuid']}}" name="uuid" />
+                  <button type="submit">
+                    <img src="/static/img/arrow-right.svg" class="hidden" />
+                  </button>
+                </form>
+              </div>
+              <div class="description">{{task['description']}}</div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="/static/js/main.js"></script>
+</html>
