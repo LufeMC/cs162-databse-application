@@ -12,7 +12,8 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config:
     db_user = env['DATABASE_USERNAME']
-    db_pass = urllib.parse.quote(env['DATABASE_PASSWORD'])
+    db_pass = urllib.parse.quote(
+        env['DATABASE_PASSWORD'] if env['DATABASE_PASSWORD'] else '')
     db_host = env['DATABASE_HOST']
     db_port = env['DATABASE_PORT']
     db_name = env['DATABASE_NAME']
