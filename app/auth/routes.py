@@ -1,4 +1,4 @@
-from flask import render_template, redirect, request, make_response, url_for
+from flask import render_template, request, make_response, url_for
 from uuid import uuid4
 from werkzeug.security import generate_password_hash, check_password_hash
 import json
@@ -34,8 +34,6 @@ def login():
                 'exp': datetime.utcnow() + timedelta(days=1)
             }, Config.SECRET_KEY)
 
-            redirectTo = redirect('/home')
-            redirectTo.headers['Authorization'] = jwtToken
             response = make_response({"message": 'User logged in!'}, 200)
             response.set_cookie('user_uuid', jwtToken)
 
