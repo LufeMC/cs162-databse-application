@@ -12,6 +12,7 @@ class User(db.Model):
         lastName (str): The user's last name.
         email (str): The user's email.
         password (str): The user's password.
+        verified (bool): A flag indicating whether the user verified the email.
         user_id (Tasks): List of tasks associated with that user.
 
     Methods:
@@ -23,6 +24,7 @@ class User(db.Model):
     lastName = db.Column(db.String(150))
     email = db.Column(db.String(150))
     password = db.Column(db.Text)
+    verified = db.Column(db.Boolean, default=False)
     tasks = db.relationship('Task', backref='post')
 
     def __repr__(self):

@@ -1,10 +1,11 @@
 from flask import render_template, redirect, request, make_response
 from uuid import uuid4
 from app.home import bp
-from app.extensions import db
+from app.extensions import db, info_logger, error_logger
 from app.models.task import Task
 from app.models.user import User
 from app.jwt import token_required
+from config import Config
 
 
 @bp.route('/')
@@ -21,9 +22,11 @@ def render(user, tasks):
         The rendered home page HTML template with the user's tasks.
     """
     if ('message' in request.args):
+        info_logger.info(f"Home view rendered with message")
         response_auth = request.args['message']
         return render_template('./home/home.html', tasks=tasks, message=response_auth)
     else:
+        info_logger.info(f"Home view rendered without message")
         return render_template('./home/home.html', tasks=tasks)
 
 
@@ -40,20 +43,23 @@ def add(user, tasks):
     Returns:
         A response indicating whether the task was successfully added.
     """
-    if (request.method == 'POST'):
-        try:
-            newTask = request.get_json()
-            newTask['uuid'] = str(uuid4())
-            newTask['user_id'] = user.id
-            newTask = Task(**newTask)
-            db.session.add(newTask)
-            db.session.commit()
+    try:
+        newTask = request.get_json()
+        newTask['uuid'] = str(uuid4())
+        newTask['user_id'] = user.id
+        newTask = Task(**newTask)
+        db.session.add(newTask)
+        db.session.commit()
+        info_logger.info(
+            f"New task added for user with uuid: {user.uuid}")
 
-            response = make_response({"message": 'Task added'}, 201)
-            return response
-        except Exception as error:
-            response = make_response({"message": error}, 500)
-            return response
+        response = make_response({"message": 'Task added'}, 201)
+        return response
+    except Exception as error:
+        error_logger.error(
+            f"An error occured while adding a new task for user with uuid: {user.uuid}")
+        response = make_response({"message": error}, 500)
+        return response
 
 
 @bp.route('/move/<string:type>', methods=['PATCH'])
@@ -83,10 +89,15 @@ def move(user, tasks, type):
 
         db.session.commit()
 
+        info_logger.info(
+            f"Task with uuid {task.uuid} moved ({type}) for user with uuid: {user.uuid}")
+
         response = make_response({"message": 'Task moved'}, 204)
         return response
 
     except Exception as error:
+        error_logger.error(f"An error occured while adding moving task with uuid\
+                  {task.uuid} ({type}) for user with uuid: {user.uuid}")
         response = make_response({"message": error}, 500)
         return response
 
@@ -114,9 +125,14 @@ def delete(user, tasks, uuid):
 
         db.session.commit()
 
+        info_logger.info(
+            f"Task {task.uuid} deleted for user with uuid: {user.uuid}")
+
         response = make_response({"message": 'Task moved'}, 204)
         return response
 
     except Exception as error:
+        error_logger.error(f"An error occured while adding deleting task with uuid\
+                  {task.uuid} for user with uuid: {user.uuid}")
         response = make_response({"message": error}, 500)
         return response

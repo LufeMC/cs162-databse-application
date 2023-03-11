@@ -16,10 +16,10 @@ addTaskForm.addEventListener("submit", async (event) => {
   // If the try doesn't pass, the user didn't fill all the information
   try {
     const obj = getFormData(event, addTaskForm);
-    const { status } = await post("/home/add", obj);
+    const { status } = await post("/home/add", obj, undefined, false);
 
     if (status === 201) {
-      window.location.reload();
+      history.go(0);
     } else {
       const message = encodeURIComponent(`The action couldn't be completed`);
       window.location.href = `/home?message=${message}`;

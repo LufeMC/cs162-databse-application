@@ -88,6 +88,24 @@ class TestTasks(unittest.TestCase):
             }
         )
 
+    def verify(self, uuid):
+        """
+        Test helper function that sends a GET request to the '/auth/verify' route.
+
+        Args:
+            uuid (str): The uuid of the user
+
+        Returns:
+            The response object of the GET request
+        """
+        return self.app.get(
+            f'/auth/verify/{uuid}',
+            follow_redirects=True,
+            headers={
+                "Content-Type": "application/json"
+            }
+        )
+
     def add_task(self, name, description):
         """Simulates a request to add a new task to the Flask app
 
@@ -168,7 +186,7 @@ class TestTasks(unittest.TestCase):
 
         This method performs the following tests:
         - Test that registering a user with a unique email address works.
-        - Test that logging in with a valid email address and password works.
+        - Test that logging in with a valid email address and password works after verification.
         - Tests that creating a new task works
         - Tests that moving a task to the next step works
         - Tests that moving a task to the previous step works
@@ -179,6 +197,14 @@ class TestTasks(unittest.TestCase):
         registerResponse = self.register(
             'TestFirst', 'TestLast', 'test@test.com', '123456')
         self.assertEqual(registerResponse.status_code, 201)
+
+        # Getting user
+        with self.flaskApp.app_context():
+            newUser = User.query.one()
+
+        # Verifying new user
+        verifyResponse = self.verify(newUser.uuid)
+        self.assertEqual(verifyResponse.status_code, 200)
 
         # Logging into account
         loginResponse = self.login('test@test.com', '123456')

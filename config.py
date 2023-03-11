@@ -27,6 +27,7 @@ class Config:
     - SQLALCHEMY_DATABASE_URI: the connection URI for the database
     - SQLALCHEMY_TRACK_MODIFICATIONS: whether to track modifications to the database
     - SECRET_KEY: the secret key for the app (used for decoding)
+    - LOG_FILE_NAME: Log file name
     """
 
     # Get the database credentials from environment variables
@@ -46,3 +47,4 @@ class Config:
 
     # Set the secret key for the app
     SECRET_KEY = env['SECRET_KEY']
+    LOG_FILE_NAME = 'log.txt'

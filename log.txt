@@ -1,0 +1,45 @@
+2023-03-12 00:06:41,292 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 00:06:41,299 - kanban_board_info - INFO - DB Initiated
+2023-03-12 00:06:48,150 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 00:07:29,407 - kanban_board_info - INFO - Login view rendered without message
+2023-03-12 00:07:36,961 - kanban_board_info - INFO - Client tried to log in with email: 19monteiroluis@gmail.com
+2023-03-12 00:07:37,047 - kanban_board_info - INFO - User successfully log in with email: 19monteiroluis@gmail.com
+2023-03-12 00:07:38,130 - kanban_board_info - INFO - Home view rendered without message
+2023-03-12 00:07:54,371 - kanban_board_info - INFO - User logged out
+2023-03-12 00:07:54,456 - kanban_board_info - INFO - Login view rendered without message
+2023-03-12 00:08:45,819 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 00:08:45,828 - kanban_board_info - INFO - DB Initiated
+2023-03-12 00:08:52,153 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 00:08:53,489 - kanban_board_info - INFO - Login view rendered without message
+2023-03-12 00:08:55,569 - kanban_board_info - INFO - Login view rendered with message
+2023-03-12 00:08:56,967 - kanban_board_info - INFO - Login view rendered without message
+2023-03-12 00:09:00,366 - kanban_board_info - INFO - Client tried to log in with email: 19monteiroluis@gmail.com
+2023-03-12 00:09:00,446 - kanban_board_info - INFO - User successfully log in with email: 19monteiroluis@gmail.com
+2023-03-12 00:09:01,748 - kanban_board_info - INFO - Home view rendered without message
+2023-03-12 00:09:09,134 - kanban_board_info - INFO - Task with uuid c8994098-34dd-4a83-b0d8-2f296fa60d10 moved (next) for user with uuid: 30d7b4ff-e91f-45d5-9ff2-404e0f34155a
+2023-03-12 00:09:09,465 - kanban_board_info - INFO - Home view rendered without message
+2023-03-12 00:09:16,351 - kanban_board_info - INFO - Task with uuid 4830fbee-650e-4222-a9be-ae9004617109 moved (previous) for user with uuid: 30d7b4ff-e91f-45d5-9ff2-404e0f34155a
+2023-03-12 00:09:16,656 - kanban_board_info - INFO - Home view rendered without message
+2023-03-12 00:10:21,837 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 00:10:21,846 - kanban_board_info - INFO - DB Initiated
+2023-03-12 00:10:28,071 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 00:10:58,456 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 00:10:58,465 - kanban_board_info - INFO - DB Initiated
+2023-03-12 00:11:04,935 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 00:11:06,472 - kanban_board_info - INFO - Home view rendered without message
+2023-03-12 00:11:11,310 - kanban_board_info - INFO - Task with uuid c8994098-34dd-4a83-b0d8-2f296fa60d10 moved (previous) for user with uuid: 30d7b4ff-e91f-45d5-9ff2-404e0f34155a
+2023-03-12 00:11:11,619 - kanban_board_info - INFO - Home view rendered without message
+2023-03-12 00:11:39,803 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 00:11:39,841 - kanban_board_info - INFO - DB Initiated
+2023-03-12 00:11:45,189 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 00:11:49,491 - kanban_board_info - INFO - Task with uuid c8994098-34dd-4a83-b0d8-2f296fa60d10 moved (next) for user with uuid: 30d7b4ff-e91f-45d5-9ff2-404e0f34155a
+2023-03-12 00:11:49,989 - kanban_board_info - INFO - Home view rendered without message
+2023-03-12 00:11:55,624 - kanban_board_info - INFO - Task c8994098-34dd-4a83-b0d8-2f296fa60d10 deleted for user with uuid: 30d7b4ff-e91f-45d5-9ff2-404e0f34155a
+2023-03-12 00:11:56,241 - kanban_board_info - INFO - Home view rendered without message
+2023-03-12 00:12:07,453 - kanban_board_info - INFO - New task added for user with uuid: 30d7b4ff-e91f-45d5-9ff2-404e0f34155a
+2023-03-12 00:12:07,913 - kanban_board_info - INFO - Home view rendered without message
+2023-03-12 00:12:12,580 - kanban_board_info - INFO - User logged out
+2023-03-12 00:12:12,618 - kanban_board_info - INFO - Login view rendered without message
+2023-03-12 00:12:17,702 - kanban_board_info - INFO - Client tried to log in with email: 19monteiroluis@gmail.com
+2023-03-12 00:12:17,782 - kanban_board_info - INFO - User successfully log in with email: 19monteiroluis@gmail.com
+2023-03-12 00:12:18,973 - kanban_board_info - INFO - Home view rendered without message

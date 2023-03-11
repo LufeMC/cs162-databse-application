@@ -20,11 +20,13 @@ class TestConfig:
     - WTF_CSRF_ENABLED: Whether CSRF protection is enabled
     - DEBUG: Debug mode
     - SQLALCHEMY_DATABASE_URI: the connection URI for the database
+    - LOG_FILE_NAME: Log file name
     """
     TESTING = True
     WTF_CSRF_ENABLED = True
     DEBUG = False
     SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, TEST_DB)
+    LOG_FILE_NAME = 'log-test.txt'
 
 
 class TestAuth(unittest.TestCase):
@@ -88,6 +90,24 @@ class TestAuth(unittest.TestCase):
             }
         )
 
+    def verify(self, uuid):
+        """
+        Test helper function that sends a GET request to the '/auth/verify' route.
+
+        Args:
+            uuid (str): The uuid of the user
+
+        Returns:
+            The response object of the GET request
+        """
+        return self.app.get(
+            f'/auth/verify/{uuid}',
+            follow_redirects=True,
+            headers={
+                "Content-Type": "application/json"
+            }
+        )
+
     def test_auth(self):
         """
         Test the '/auth/register' and '/auth/login' routes.
@@ -96,6 +116,9 @@ class TestAuth(unittest.TestCase):
         - Test that the '/auth/register' and '/auth/login' routes return the correct status codes.
         - Test that registering a user with a unique email address works.
         - Test that registering a user with an already registered email address does not work.
+        - Test that logging in before verifying doesn't work
+        - Test that verifying works
+        - Test that logging in after verifying works
         - Test that logging in with a valid email address and password works.
         - Test that logging in with an invalid password does not work.
         - Test that logging in with an unregistered email address does not work.
@@ -112,12 +135,24 @@ class TestAuth(unittest.TestCase):
             'TestFirst', 'TestLast', 'test@test.com', '123456')
         self.assertEqual(registerResponse.status_code, 201)
 
+        # Getting user
+        with self.flaskApp.app_context():
+            newUser = User.query.one()
+
         # Check if registering doesn't work in case email is already registered
         registerResponse = self.register(
             'TestFirst', 'TestLast', 'test@test.com', '123456')
         self.assertEqual(registerResponse.status_code, 202)
 
-        # Check if login works
+        # Check if login doesn't work before verification
+        loginResponse = self.login('test@test.com', '123456')
+        self.assertEqual(loginResponse.status_code, 401)
+
+        # Check if verification works
+        verifyResponse = self.verify(newUser.uuid)
+        self.assertEqual(verifyResponse.status_code, 200)
+
+        # Check if login works after verification
         loginResponse = self.login('test@test.com', '123456')
         self.assertEqual(loginResponse.status_code, 200)
 

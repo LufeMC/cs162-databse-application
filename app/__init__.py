@@ -1,7 +1,7 @@
 from flask import Flask
 
 from config import Config
-from app.extensions import db
+from app.extensions import db, setFormatter, info_logger, error_logger
 from app.models.task import Task
 from app.models.user import User
 
@@ -22,10 +22,17 @@ def create_app(config_class=Config):
     flaskApp = Flask(__name__)
     flaskApp.config.from_object(config_class)
 
-    # Initializing db extension and creating the tables
+    # Initializing extensions
+    fileFormatter = setFormatter(config_class.LOG_FILE_NAME)
+    info_logger.addHandler(fileFormatter)
+    error_logger.addHandler(fileFormatter)
+    info_logger.info('File log for Kanban Board opened')
+
     db.init_app(flaskApp)
+    info_logger.info('DB Initiated')
     with flaskApp.app_context():
         db.create_all()
+        info_logger.info('Tables created on DB')
 
     # Registering blueprints
     from app.home import bp as home_bp

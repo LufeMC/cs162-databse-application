@@ -1,9 +1,10 @@
 import { createLoading, removeLoading } from "./_helper.js";
 
-export async function post(url, body) {
+export async function post(url, body, fullPath = false, stopLoading = true) {
   try {
     createLoading();
-    const query = await fetch(`${window.location.origin}${url}`, {
+    const newUrl = fullPath ? url : `${window.location.origin}${url}`;
+    const query = await fetch(newUrl, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -14,18 +15,19 @@ export async function post(url, body) {
     const data = await query.json();
     const status = query.status;
 
-    removeLoading();
+    if (stopLoading) removeLoading();
     return { status, data };
   } catch (error) {
-    removeLoading();
+    if (stopLoading) removeLoading();
     throw new Error(error.message);
   }
 }
 
-export async function get(url) {
+export async function get(url, fullPath = false, stopLoading = true) {
   try {
     createLoading();
-    const query = await fetch(`${window.location.origin}${url}`, {
+    const newUrl = fullPath ? url : `${window.location.origin}${url}`;
+    const query = await fetch(newUrl, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -35,18 +37,19 @@ export async function get(url) {
     const data = await query.json();
     const status = query.status;
 
-    removeLoading();
+    if (stopLoading) removeLoading();
     return { status, data };
   } catch (error) {
-    removeLoading();
+    if (stopLoading) removeLoading();
     throw new Error(error.message);
   }
 }
 
-export async function patch(url, body) {
+export async function patch(url, body, fullPath = false, stopLoading = true) {
   try {
     createLoading();
-    const query = await fetch(`${window.location.origin}${url}`, {
+    const newUrl = fullPath ? url : `${window.location.origin}${url}`;
+    const query = await fetch(newUrl, {
       method: "PATCH",
       body: JSON.stringify(body),
       headers: {
@@ -56,18 +59,19 @@ export async function patch(url, body) {
 
     const status = query.status;
 
-    removeLoading();
+    if (stopLoading) removeLoading();
     return status;
   } catch (error) {
-    removeLoading();
+    if (stopLoading) removeLoading();
     throw new Error(error.message);
   }
 }
 
-export async function remove(url, item) {
+export async function remove(url, item, fullPath = false, stopLoading = true) {
   try {
     createLoading();
-    const query = await fetch(`${window.location.origin}${url}/${item}`, {
+    const newUrl = fullPath ? url : `${window.location.origin}${url}`;
+    const query = await fetch(`${newUrl}/${item}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
@@ -76,10 +80,10 @@ export async function remove(url, item) {
 
     const status = query.status;
 
-    removeLoading();
+    if (stopLoading) removeLoading();
     return status;
   } catch (error) {
-    removeLoading();
+    if (stopLoading) removeLoading();
     throw new Error(error.message);
   }
 }

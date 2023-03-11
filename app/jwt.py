@@ -56,6 +56,10 @@ def token_required(f):
                 .filter_by(uuid=data['uuid'])\
                 .first()
 
+            # If user is still not verified
+            if (not user.verified):
+                return redirect('/auth/login')
+
             tasks = {
                 'toDo': Task.query.filter_by(user_id=user.id, status=0, deleted=False),
                 'doing': Task.query.filter_by(user_id=user.id, status=1, deleted=False),
