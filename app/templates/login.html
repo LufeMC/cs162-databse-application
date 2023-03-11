@@ -1,16 +1,11 @@
 {% extends "_auth.html" %}
+{% from "_macros.html" import input with context %}
 {% block content %}
   <div class="login-box">
     <h1>Welcome to the Kanban Board</h1>
     <form action="http://127.0.0.1:5000/auth/login" method="POST">
-      <div class="input-box" id="email-input-box">
-        <span>Email Address</span>
-        <input id="email-input" name="email" />
-      </div>
-      <div class="input-box" id="password-input-box">
-        <span>Password</span>
-        <input type="password" id="password-input" name="password" />
-      </div>
+      {{ input('email', 'Email Address') }}
+      {{ input('password', 'Password') }}
       <button type="submit">
         <span>Login</span>
         <div></div>
