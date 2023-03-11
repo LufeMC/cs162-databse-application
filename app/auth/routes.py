@@ -18,7 +18,7 @@ def login():
             response_auth = request.args['message']
             return render_template('./login.html', message=message)
         else:
-            return render_template('./login.html')
+            return render_template('./login.html', )
     else:
         userData = request.form.to_dict()
 
