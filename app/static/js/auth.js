@@ -1,51 +1,48 @@
-const emailInputBox = document.getElementById("email-input-box");
-const passwordInputBox = document.getElementById("password-input-box");
-const firstNameInputBox = document.getElementById("first-name-input-box");
-const lastNameInputBox = document.getElementById("last-name-input-box");
+const loginForm = document.getElementById("login-form");
+const registerForm = document.getElementById("register-form");
 
-const emailInput = document.getElementById("email-input");
-const passwordInput = document.getElementById("password-input");
-const firstNameInput = document.getElementById("first-name-input");
-const lastNameInput = document.getElementById("last-name-input");
+const inputBoxes = document.getElementByClassName("input-box");
+const inputs = document.getElementByClassName("auth-input");
 
 const notificationModalContainer = document.getElementById(
   "notification-modal-container"
 );
 const notificationModal = document.getElementById("notification-modal");
 
-emailInput.addEventListener("input", (event) => {
-  if (event.target.value) {
-    console.log(event.target.value);
-    emailInputBox.classList.add("active");
-  } else {
-    emailInputBox.classList.remove("active");
+loginForm.addEventListener("submit", async (event) => {
+  event.preventDefault()
+  const query = await fetch(`${process.env.API_URL}/auth/login`, {method: "POST"})
+  const status = query.json().status
+  
+  if (status === 200) {
+    window.location.href = "/home";
   }
 });
 
-passwordInput.addEventListener("input", (event) => {
-  if (event.target.value) {
-    passwordInputBox.classList.add("active");
+registerForm.addEventListener("submit", async (event) => {
+  event.preventDefault()
+  const query = await fetch(`${process.env.API_URL}/auth/register`, {method: "POST"})
+  const status = query.json().status
+  let message;
+  
+  if (status === 201) {
+    message = "User created successfully! Login now"
+    window.location.href = "/auth/register?message=";
   } else {
-    passwordInputBox.classList.remove("active");
+    message = "This email is already registered! Login now"
   }
+  
+  message = encodeURIComponent(message)
+  window.location.href = `/auth/login?message=${message}`;
 });
 
-if (firstNameInput) {
-  firstNameInput.addEventListener("input", (event) => {
+for (const input of inputs) {
+  input.addEventListener("input", (event) => {
+    const inputBox = input.getElementsByTagName('input')[0];
     if (event.target.value) {
-      firstNameInputBox.classList.add("active");
+      inputBox.classList.add("active");
     } else {
-      firstNameInputBox.classList.remove("active");
-    }
-  });
-}
-
-if (lastNameInput) {
-  lastNameInput.addEventListener("input", (event) => {
-    if (event.target.value) {
-      lastNameInputBox.classList.add("active");
-    } else {
-      lastNameInputBox.classList.remove("active");
+      inputBox.classList.remove("active");
     }
   });
 }
