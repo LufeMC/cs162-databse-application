@@ -20,11 +20,13 @@ class TestConfig:
     - WTF_CSRF_ENABLED: Whether CSRF protection is enabled
     - DEBUG: Debug mode
     - SQLALCHEMY_DATABASE_URI: the connection URI for the database
+    - LOG_FILE_NAME: Log file name
     """
     TESTING = True
     WTF_CSRF_ENABLED = True
     DEBUG = False
     SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, TEST_DB)
+    LOG_FILE_NAME = 'log-test.txt'
 
 
 class TestTasks(unittest.TestCase):

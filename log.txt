@@ -43,3 +43,66 @@
 2023-03-12 00:12:17,702 - kanban_board_info - INFO - Client tried to log in with email: 19monteiroluis@gmail.com
 2023-03-12 00:12:17,782 - kanban_board_info - INFO - User successfully log in with email: 19monteiroluis@gmail.com
 2023-03-12 00:12:18,973 - kanban_board_info - INFO - Home view rendered without message
+2023-03-12 00:20:40,866 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 00:20:40,874 - kanban_board_info - INFO - DB Initiated
+2023-03-12 00:20:46,617 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 00:20:50,375 - kanban_board_info - INFO - Home view rendered without message
+2023-03-12 00:20:58,106 - kanban_board_info - INFO - User logged out
+2023-03-12 00:20:58,163 - kanban_board_info - INFO - Login view rendered without message
+2023-03-12 01:11:21,351 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 01:11:21,359 - kanban_board_info - INFO - DB Initiated
+2023-03-12 01:11:28,540 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 01:11:50,584 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 01:11:50,592 - kanban_board_info - INFO - DB Initiated
+2023-03-12 01:11:58,180 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 01:12:05,203 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 01:12:05,211 - kanban_board_info - INFO - DB Initiated
+2023-03-12 01:12:12,471 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 01:12:20,924 - kanban_board_info - INFO - Login view rendered without message
+2023-03-12 01:25:56,913 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 01:25:56,921 - kanban_board_info - INFO - DB Initiated
+2023-03-12 01:26:02,106 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 01:26:51,586 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 01:26:51,593 - kanban_board_info - INFO - DB Initiated
+2023-03-12 01:26:56,787 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 01:27:02,163 - kanban_board_info - INFO - Login view rendered without message
+2023-03-12 01:27:27,657 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 01:27:27,664 - kanban_board_info - INFO - DB Initiated
+2023-03-12 01:27:34,005 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 01:28:35,837 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 01:28:35,845 - kanban_board_info - INFO - DB Initiated
+2023-03-12 01:28:42,552 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 01:28:53,582 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 01:28:53,590 - kanban_board_info - INFO - DB Initiated
+2023-03-12 01:29:01,202 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 01:29:33,738 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 01:29:33,746 - kanban_board_info - INFO - DB Initiated
+2023-03-12 01:29:39,155 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 01:30:10,042 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 01:30:10,050 - kanban_board_info - INFO - DB Initiated
+2023-03-12 01:30:14,521 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 01:30:40,920 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 01:30:40,927 - kanban_board_info - INFO - DB Initiated
+2023-03-12 01:30:45,102 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 01:31:33,999 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 01:31:34,007 - kanban_board_info - INFO - DB Initiated
+2023-03-12 01:31:38,569 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 01:31:49,422 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 01:31:49,430 - kanban_board_info - INFO - DB Initiated
+2023-03-12 01:31:54,341 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 01:31:58,334 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 01:31:58,342 - kanban_board_info - INFO - DB Initiated
+2023-03-12 01:32:03,624 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 01:32:07,323 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 01:32:07,330 - kanban_board_info - INFO - DB Initiated
+2023-03-12 01:32:12,455 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 01:32:49,289 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 01:32:49,303 - kanban_board_info - INFO - DB Initiated
+2023-03-12 01:32:53,936 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 01:36:29,075 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 01:36:29,082 - kanban_board_info - INFO - DB Initiated
+2023-03-12 01:36:35,254 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 01:37:02,280 - kanban_board_info - INFO - Login view rendered without message
+2023-03-12 01:37:06,018 - kanban_board_info - INFO - Login view rendered without message
+2023-03-12 01:37:11,154 - kanban_board_info - INFO - Login view rendered without message
+2023-03-12 01:37:15,355 - kanban_board_info - INFO - Login view rendered without message

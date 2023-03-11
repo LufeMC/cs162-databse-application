@@ -280,3 +280,8 @@ def resetPassword(uuid):
             info_logger.info(
                 f"Reset Password view rendered without message")
             return render_template('./auth/resetPassword.html')
+
+
+@bp.errorhandler(404)
+def notFound():
+    return redirect('/auth/login')

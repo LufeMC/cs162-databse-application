@@ -136,3 +136,8 @@ def delete(user, tasks, uuid):
                   {task.uuid} for user with uuid: {user.uuid}")
         response = make_response({"message": error}, 500)
         return response
+
+
+@bp.errorhandler(404)
+def notFound():
+    return redirect('/home')

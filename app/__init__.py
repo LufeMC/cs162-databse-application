@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, redirect
 
 from config import Config
 from app.extensions import db, setFormatter, info_logger, error_logger
@@ -35,6 +35,10 @@ def create_app(config_class=Config):
         info_logger.info('Tables created on DB')
 
     # Registering blueprints
+    @flaskApp.errorhandler(404)
+    def notFound(e):
+        return redirect('/auth/login')
+
     from app.home import bp as home_bp
     flaskApp.register_blueprint(home_bp, url_prefix='/home/')
 
