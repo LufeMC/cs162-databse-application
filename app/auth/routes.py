@@ -62,7 +62,7 @@ def register():
             db.session.commit()
             
             return make_response({"message": 'User created successfully! Login now'}, 201)
-        else
+        else:
             return make_response({"message": 'This email is already registered! Login now'}, 202)
     else:
         return render_template('./register.html')
