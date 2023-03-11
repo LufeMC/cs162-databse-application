@@ -13,26 +13,24 @@ loginForm.addEventListener("submit", async (event) => {
   event.preventDefault()
   const query = await fetch(`${process.env.API_URL}/auth/login`, {method: "POST"})
   const status = query.json().status
+  const data = query.json().data
   
   if (status === 200) {
     window.location.href = "/home";
+    return
   }
+  
+  message = encodeURIComponent(message)
+  window.location.href = `/auth/login?message=${message}`;
 });
 
 registerForm.addEventListener("submit", async (event) => {
   event.preventDefault()
   const query = await fetch(`${process.env.API_URL}/auth/register`, {method: "POST"})
   const status = query.json().status
-  let message;
+  const data = query.json().data
   
-  if (status === 201) {
-    message = "User created successfully! Login now"
-    window.location.href = "/auth/register?message=";
-  } else {
-    message = "This email is already registered! Login now"
-  }
-  
-  message = encodeURIComponent(message)
+  const message = encodeURIComponent(data.message)
   window.location.href = `/auth/login?message=${message}`;
 });
 
