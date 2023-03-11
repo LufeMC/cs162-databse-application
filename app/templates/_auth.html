@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <title>Kanban Board - Login</title>
+    <link rel="stylesheet" href="/static/css/auth.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <main>
+      {% if response_auth and response_auth['message']%}
+      <div
+        class="notification-modal-container"
+        id="notification-modal-container"
+      >
+        <div class="notification-modal" id="notification-modal">
+          {{response_auth['message']}}
+        </div>
+      </div>
+      {% endif %}
+      {% block content %}{% endblock %}
+      <div class="image-container">
+        <img src="/static/img/background.jpg" />
+      </div>
+    </main>
+  </body>
+  <script src="/static/js/auth.js"></script>
+</html>
