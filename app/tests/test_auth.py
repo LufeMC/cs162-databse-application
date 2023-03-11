@@ -45,10 +45,10 @@ class TestAuth(unittest.TestCase):
     def test_auth(self):
         # Check if routes return 200
         response = self.app.get('/auth/register')
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.status_code, 308)
 
         response = self.app.get('/auth/login')
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.status_code, 308)
 
         # Check if registering works
         registerResponse = self.register('test@test.com', '123456')
