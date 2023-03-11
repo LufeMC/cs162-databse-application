@@ -1,6 +1,6 @@
-{% macro input(id, placeholder) %}
+{% macro input(id, name, placeholder) %}
 <div class="input-box" id="{{id}}-input-box">
   <span>{{ placeholder }}</span>
-  <input id="{{id}}-input" name="{{id}}" />
+  <input id="{{id}}-input" name="{{name}}" />
 </div>
 {% endmacro %}
