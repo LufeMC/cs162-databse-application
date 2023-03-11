@@ -3,7 +3,6 @@ const inputBoxes = document.getElementsByClassName("input-box");
 const notificationModalContainer = document.getElementById(
   "notification-modal-container"
 );
-const notificationModal = document.getElementById("notification-modal");
 
 for (const inputBox of inputBoxes) {
   const input = inputBox.getElementsByTagName("input")[0];

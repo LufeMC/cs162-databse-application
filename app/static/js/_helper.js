@@ -33,3 +33,32 @@ export function getFormData(event, formHTMLElement) {
     throw new Error("Please, fill all the information");
   }
 }
+
+// Create loading overlay to process data
+export function createLoading() {
+  // Creating container
+  const loadingContainer = document.createElement("div");
+  loadingContainer.id = "loading-container";
+  loadingContainer.classList.add("modal-container");
+  loadingContainer.style.zIndex = 100;
+  loadingContainer.style.display = "flex";
+
+  // Creating spinner
+  const mainSpinner = document.createElement("div");
+  mainSpinner.classList.add("spinner");
+  for (let i = 0; i < 12; i++) {
+    const spinBar = document.createElement("div");
+    mainSpinner.appendChild(spinBar);
+  }
+
+  loadingContainer.appendChild(mainSpinner);
+
+  // Adding overlay to page
+  document.body.appendChild(loadingContainer);
+}
+
+// Remove loading overlay after processing data
+export function removeLoading() {
+  const loadingContainer = document.getElementById("loading-container");
+  loadingContainer.remove();
+}

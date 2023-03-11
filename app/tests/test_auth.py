@@ -6,18 +6,33 @@ import json
 import unittest
 import os
 
+# Set up a test database
 TEST_DB = 'test.db'
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 
+class TestConfig:
+    """
+    Testing Configuration settings for the Flask app.
+
+    Attributes:
+    - TESTING: Testing state
+    - WTF_CSRF_ENABLED: Whether CSRF protection is enabled
+    - DEBUG: Debug mode
+    - SQLALCHEMY_DATABASE_URI: the connection URI for the database
+    """
+    TESTING = True
+    WTF_CSRF_ENABLED = True
+    DEBUG = False
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, TEST_DB)
+
+
 class TestAuth(unittest.TestCase):
+    """Test suite for the Kanban authentication routes"""
+
     def setUp(self):
-        self.flaskApp = create_app()
-        self.flaskApp.config['TESTING'] = True
-        self.flaskApp.config['WTF_CSRF_ENABLED'] = False
-        self.flaskApp.config['DEBUG'] = False
-        self.flaskApp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + \
-            os.path.join(basedir, TEST_DB)
+        """Set up Kanban app, database, and test client"""
+        self.flaskApp = create_app(TestConfig)
         self.app = self.flaskApp.test_client()
 
         with self.flaskApp.app_context():
@@ -27,9 +42,22 @@ class TestAuth(unittest.TestCase):
         self.assertEqual(self.flaskApp.debug, False)
 
     def tearDown(self):
+        """Clean up after the test"""
         pass
 
     def register(self, firstName, lastName, email, password):
+        """
+        Test helper function that sends a POST request to the '/auth/register' route.
+
+        Args:
+            firstName (str): The first name of the user to register
+            lastName (str): The last name of the user to register
+            email (str): The email address of the user to register
+            password (str): The password of the user to register
+
+        Returns:
+            The response object of the POST request
+        """
         return self.app.post(
             '/auth/register',
             data=json.dumps({"firstName": firstName, "lastName": lastName,
@@ -41,6 +69,16 @@ class TestAuth(unittest.TestCase):
         )
 
     def login(self, email, password):
+        """
+        Test helper function that sends a POST request to the '/auth/login' route.
+
+        Args:
+            email (str): The email address of the user to log in
+            password (str): The password of the user to log in
+
+        Returns:
+            The response object of the POST request
+        """
         return self.app.post(
             '/auth/login',
             data=json.dumps({"email": email, "password": password}),
@@ -51,6 +89,17 @@ class TestAuth(unittest.TestCase):
         )
 
     def test_auth(self):
+        """
+        Test the '/auth/register' and '/auth/login' routes.
+
+        This method performs the following tests:
+        - Test that the '/auth/register' and '/auth/login' routes return the correct status codes.
+        - Test that registering a user with a unique email address works.
+        - Test that registering a user with an already registered email address does not work.
+        - Test that logging in with a valid email address and password works.
+        - Test that logging in with an invalid password does not work.
+        - Test that logging in with an unregistered email address does not work.
+        """
         # Check if routes return 200
         response = self.app.get('/auth/register')
         self.assertEqual(response.status_code, 308)

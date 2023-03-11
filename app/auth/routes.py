@@ -73,7 +73,7 @@ def register():
     if (request.method == 'POST'):
         try:
             newUserData = request.get_json()
-            newUserData['uuid'] = uuid4()
+            newUserData['uuid'] = str(uuid4())
 
             existingUser = User.query\
                 .filter_by(email=newUserData['email'])\

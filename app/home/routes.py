@@ -43,7 +43,7 @@ def add(user, tasks):
     if (request.method == 'POST'):
         try:
             newTask = request.get_json()
-            newTask['uuid'] = uuid4()
+            newTask['uuid'] = str(uuid4())
             newTask['user_id'] = user.id
             newTask = Task(**newTask)
             db.session.add(newTask)
