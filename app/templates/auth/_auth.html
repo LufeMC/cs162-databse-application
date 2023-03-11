@@ -3,6 +3,7 @@
   <head>
     <title>Kanban Board - Login</title>
     <link rel="stylesheet" href="/static/css/auth.css" />
+    <link rel="stylesheet" href="/static/css/global.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,23 +14,20 @@
   </head>
   <body>
     <main>
-      {% if response_auth and response_auth['message']%}
+      {% if message %}
       <div
-        class="notification-modal-container"
+        class="modal-container conditional"
         id="notification-modal-container"
       >
-        <div class="notification-modal" id="notification-modal">
-          {{response_auth['message']}}
-        </div>
+        <div class="modal" id="notification-modal">{{message}}</div>
       </div>
-      {% endif %}
-      {% block content %}{% endblock %}
+      {% endif %} {% block content %}{% endblock %}
       <div class="image-container">
         <img src="/static/img/background.jpg" />
       </div>
     </main>
+    <script src="/static/js/auth/auth.js"></script>
+    <script src="/static/js/global.js"></script>
+    {% block javaScript %} {% endblock %}
   </body>
-  {% block javaScript %}
-  <script src="/static/js/auth.js"></script>
-  {% endblock %}
 </html>

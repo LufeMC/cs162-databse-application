@@ -4,6 +4,7 @@ from app.models.task import Task
 from app.models.user import User
 import unittest
 import os
+import json
 
 TEST_DB = 'test.db'
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -28,51 +29,70 @@ class TestAuth(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def register(self, email, password):
+    def register(self, firstName, lastName, email, password):
         return self.app.post(
             '/auth/register',
-            data=dict(email=email, password=password),
-            follow_redirects=True
+            data=json.dumps({"firstName": firstName, "lastName": lastName,
+                             "email": email, "password": password}),
+            follow_redirects=True,
+            headers={
+                "Content-Type": "application/json"
+            }
         )
 
     def login(self, email, password):
         return self.app.post(
             '/auth/login',
-            data=dict(email=email, password=password),
-            follow_redirects=True
+            data=json.dumps({"email": email, "password": password}),
+            follow_redirects=True,
+            headers={
+                "Content-Type": "application/json"
+            }
         )
 
     def add_task(self, name, description):
         return self.app.post(
             '/home/add',
-            data=dict(name=name, description=description),
-            follow_redirects=True
+            data=json.dumps({"name": name, "description": description}),
+            follow_redirects=True,
+            headers={
+                "Content-Type": "application/json"
+            }
         )
 
     def next_task(self, uuid):
-        return self.app.post(
-            '/home/next',
-            data=dict(uuid=uuid),
-            follow_redirects=True
+        return self.app.patch(
+            '/home/move/next',
+            data=json.dumps({"uuid": uuid}),
+            follow_redirects=True,
+            headers={
+                "Content-Type": "application/json"
+            }
         )
 
     def previous_task(self, uuid):
-        return self.app.post(
-            '/home/previous',
-            data=dict(uuid=uuid),
-            follow_redirects=True
+        return self.app.patch(
+            '/home/move/previous',
+            data=json.dumps({"uuid": uuid}),
+            follow_redirects=True,
+            headers={
+                "Content-Type": "application/json"
+            }
         )
 
     def delete_task(self, uuid):
-        return self.app.post(
-            '/home/delete',
-            data=dict(uuid=uuid),
-            follow_redirects=True
+        return self.app.delete(
+            f'/home/remove/{uuid}',
+            follow_redirects=True,
+            headers={
+                "Content-Type": "application/json"
+            }
         )
 
     def test_auth(self):
         # Register new user
-        registerResponse = self.register('test@test.com', '123456')
+        registerResponse = self.register(
+            'TestFirst', 'TestLast', 'test@test.com', '123456')
         self.assertEqual(registerResponse.status_code, 201)
 
         # Logging into account
@@ -91,10 +111,28 @@ class TestAuth(unittest.TestCase):
         taskNextResponse = self.next_task(newTask.uuid)
         self.assertEqual(taskNextResponse.status_code, 204)
 
+        # Checking if task moved to next
+        with self.flaskApp.app_context():
+            newTask = Task.query.one()
+
+        self.assertEqual(newTask.status, 1)
+
         # Moving task to previous step
         taskNextResponse = self.previous_task(newTask.uuid)
         self.assertEqual(taskNextResponse.status_code, 204)
 
+        # Checking if task moved to previous
+        with self.flaskApp.app_context():
+            newTask = Task.query.one()
+
+        self.assertEqual(newTask.status, 0)
+
         # Deleting task
         taskNextResponse = self.delete_task(newTask.uuid)
         self.assertEqual(taskNextResponse.status_code, 204)
+
+        # Checking if task is deleted
+        with self.flaskApp.app_context():
+            newTask = Task.query.first()
+
+        self.assertEqual(newTask.deleted, True)

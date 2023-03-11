@@ -1,43 +1,8 @@
-html,body,main {
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    font-family: 'Montserrat', sans-serif !important;
-}
-
 main {
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: space-between;
-}
-
-main .notification-modal-container {
-    height: 100%;
-    width: 100%;
-    z-index: 10;
-    position: fixed;
-    left: 0;
-    top: 0;
-    background-color: rgba(0,0,0, 0.5);
-    backdrop-filter: blur(5px);
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
-
-main .notification-modal-container .notification-modal {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: white;
-    padding: 2em 3em;
-    border-radius: 10px;
-    gap: 1em;
-    width: 30%;
 }
 
 main .login-box {
@@ -52,24 +17,6 @@ main .login-box {
     width: 30%;
     flex: 45;
     gap: 2em;
-}
-
-@media only screen and (max-width: 1024px) {
-    main .login-box, main .notification-modal-container .notification-modal {
-        width: 40%;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    main .login-box, main .notification-modal-container .notification-modal {
-        width: 50%;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    main .login-box, main .notification-modal-container .notification-modal {
-        width: 70%;
-    }
 }
 
 main .login-box h1 {

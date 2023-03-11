@@ -2,6 +2,7 @@ from app import create_app
 from app.extensions import db
 from app.models.task import Task
 from app.models.user import User
+import json
 import unittest
 import os
 
@@ -28,18 +29,25 @@ class TestAuth(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def register(self, email, password):
+    def register(self, firstName, lastName, email, password):
         return self.app.post(
             '/auth/register',
-            data=dict(email=email, password=password),
-            follow_redirects=True
+            data=json.dumps({"firstName": firstName, "lastName": lastName,
+                             "email": email, "password": password}),
+            follow_redirects=True,
+            headers={
+                "Content-Type": "application/json"
+            }
         )
 
     def login(self, email, password):
         return self.app.post(
             '/auth/login',
-            data=dict(email=email, password=password),
-            follow_redirects=True
+            data=json.dumps({"email": email, "password": password}),
+            follow_redirects=True,
+            headers={
+                "Content-Type": "application/json"
+            }
         )
 
     def test_auth(self):
@@ -51,11 +59,13 @@ class TestAuth(unittest.TestCase):
         self.assertEqual(response.status_code, 308)
 
         # Check if registering works
-        registerResponse = self.register('test@test.com', '123456')
+        registerResponse = self.register(
+            'TestFirst', 'TestLast', 'test@test.com', '123456')
         self.assertEqual(registerResponse.status_code, 201)
 
         # Check if registering doesn't work in case email is already registered
-        registerResponse = self.register('test@test.com', '123456')
+        registerResponse = self.register(
+            'TestFirst', 'TestLast', 'test@test.com', '123456')
         self.assertEqual(registerResponse.status_code, 202)
 
         # Check if login works

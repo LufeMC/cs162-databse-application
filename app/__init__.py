@@ -7,15 +7,27 @@ from app.models.user import User
 
 
 def create_app(config_class=Config):
+    """
+    This function creates a Flask application instance and returns it.
+
+    Parameters:
+        config_class (Config): A configuration class to configure the Flask app
+        instance. Defaults to `Config`, which comes from the configuration file
+        that reads the environment variables.
+
+    Returns:
+        Flask: The Flask application instance.
+
+    """
     flaskApp = Flask(__name__)
     flaskApp.config.from_object(config_class)
 
-    # Initialize Flask extensions here
+    # Initializing db extension and creating the tables
     db.init_app(flaskApp)
     with flaskApp.app_context():
         db.create_all()
 
-    # Register blueprints here
+    # Registering blueprints
     from app.home import bp as home_bp
     flaskApp.register_blueprint(home_bp, url_prefix='/home/')
 
