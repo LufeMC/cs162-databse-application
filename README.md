@@ -1,5 +1,7 @@
 # CS162 Kanban Board 12:30 - Luis Fernando
 
+This app is available to use and see at https://kanban-board-cs162-luisfernando.onrender.com
+
 ## Project Structure
 
 `/.github/workflows` contains CI/CD code.
