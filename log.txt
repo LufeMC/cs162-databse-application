@@ -106,3 +106,7 @@
 2023-03-12 01:37:06,018 - kanban_board_info - INFO - Login view rendered without message
 2023-03-12 01:37:11,154 - kanban_board_info - INFO - Login view rendered without message
 2023-03-12 01:37:15,355 - kanban_board_info - INFO - Login view rendered without message
+2023-03-12 10:48:02,674 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-03-12 10:48:02,682 - kanban_board_info - INFO - DB Initiated
+2023-03-12 10:48:06,591 - kanban_board_info - INFO - Tables created on DB
+2023-03-12 10:48:09,731 - kanban_board_info - INFO - Login view rendered without message
