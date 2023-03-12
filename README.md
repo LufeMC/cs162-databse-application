@@ -6,7 +6,7 @@ This app is available to use and see at https://kanban-board-cs162-luisfernando.
 
 `/.github/workflows` contains CI/CD code.
 
-`/app` contains application.
+`/app` contains the application.
 
 `/app/static` contains css/img/js files.
 
@@ -18,7 +18,7 @@ This app is available to use and see at https://kanban-board-cs162-luisfernando.
 
 `/app/home` contains the routes related to task management.
 
-`/app/models` contans the DB models using SQLAlchemy.
+`/app/models` contains the DB models using SQLAlchemy.
 
 `/app/integrations` contains third-party integrations.
 
