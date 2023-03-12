@@ -1,6 +1,8 @@
 # CS162 Kanban Board 12:30 - Luis Fernando
 
 This app is available to use and see at https://kanban-board-cs162-luisfernando.onrender.com
+<br>
+You can see the video showcase of the app in this link: https://www.loom.com/share/ed2e1b1ee99a4633bea7c7ca34135e5f
 
 ## Project Structure
 
