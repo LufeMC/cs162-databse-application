@@ -3,35 +3,31 @@ from app.extensions import db
 
 class User(db.Model):
     """
-    A class representing a user in the kanban app.
+    A class representing a user.
 
     Attributes:
-        id (int): The unique identifier for the task.
-        uuid (str): A Universally Unique Identifier (UUID) for the task.
-        firstName (str): The user's first name.
+        id (int): The unique identifier for the user.
+        name (str): The user's name.
         lastName (str): The user's last name.
-        email (str): The user's email.
         password (str): The user's password.
-        verified (bool): A flag indicating whether the user verified the email.
-        user_id (Tasks): List of tasks associated with that user.
+        type (str): A user type (default: buyer)
+        office_id (Office): Office id from the user
 
     Methods:
-        __repr__(): Returns a string representation of the Task object.
+        __repr__(): Returns a string representation of the User object.
     """
     id = db.Column(db.Integer, primary_key=True)
-    uuid = db.Column(db.Text)
-    firstName = db.Column(db.String(150))
-    lastName = db.Column(db.String(150))
+    name = db.Column(db.String(150))
     email = db.Column(db.String(150))
     password = db.Column(db.Text)
-    verified = db.Column(db.Boolean, default=False)
-    tasks = db.relationship('Task', backref='post')
+    type = db.Column(db.String(150), default="buyer")
+    office_id = db.Column(db.Integer, db.ForeignKey('office.id'))
 
     def __repr__(self):
         """
         Returns a string representation of the User object.
 
         Returns:
-            str: A string representation of the User object, including the user first and last name.
+            str: A string representation of the User object, including the user name.
         """
-        return f'<User "{self.firstName} {self.lastName}">'
+        return f'<User "{self.name}">'

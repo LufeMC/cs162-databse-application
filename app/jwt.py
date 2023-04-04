@@ -1,7 +1,6 @@
 from flask import request, jsonify, redirect
 from config import Config
 from app.models.user import User
-from app.models.task import Task
 import jwt
 from functools import wraps
 

@@ -2,9 +2,17 @@ from flask import Flask, redirect
 
 from config import Config
 from app.extensions import db, setFormatter, info_logger, error_logger
-from app.models.task import Task
+from app.models.office import Office
 from app.models.user import User
-
+from app.models.rate import Rate
+from app.models.commission import Commission
+from app.models.listing import Listing
+from app.models.order import Order
+from app.fakerData.createBuyers import createBuyers
+from app.fakerData.createOffices import createOffices
+from app.fakerData.createAgents import createAgents
+from app.fakerData.createListings import createListings
+from app.fakerData.createOrders import createOrders
 
 def create_app(config_class=Config):
     """
@@ -31,8 +39,22 @@ def create_app(config_class=Config):
     db.init_app(flaskApp)
     info_logger.info('DB Initiated')
     with flaskApp.app_context():
+        db.drop_all()
         db.create_all()
         info_logger.info('Tables created on DB')
+
+    # Creating fake data
+    numBuyers = 1000
+    numOffices = int(numBuyers/200)
+    numAgents = int(numBuyers/40)
+    numListings = int(numBuyers/2)
+    numOrders = int(numListings/2)
+
+    createBuyers(numBuyers, flaskApp)
+    createOffices(numOffices, flaskApp)
+    createAgents(numAgents, numOffices, flaskApp)
+    createListings(numListings, flaskApp)
+    createOrders(numOrders, numListings, numAgents, numBuyers, flaskApp)
 
     # Registering blueprints
     @flaskApp.errorhandler(404)

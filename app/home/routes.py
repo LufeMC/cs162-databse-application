@@ -2,7 +2,6 @@ from flask import render_template, redirect, request, make_response
 from uuid import uuid4
 from app.home import bp
 from app.extensions import db, info_logger, error_logger
-from app.models.task import Task
 from app.models.user import User
 from app.jwt import token_required
 from config import Config
