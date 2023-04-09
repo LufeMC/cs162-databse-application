@@ -1,8 +1,5 @@
 # CS162 Kanban Board 12:30 - Luis Fernando
 
-<br>
-You can see the video showcase of the app in this link: https://www.loom.com/share/ed2e1b1ee99a4633bea7c7ca34135e5f
-
 ## Project Structure
 
 `/.github/workflows` contains CI/CD code.
@@ -68,7 +65,7 @@ To start the server:
 
 To run the unit tests:
 
-	$ python3 -m unittest discovery app/tests
+	$ python3 -m unittest discover tests
 
 When you are done. Close the virtual env.
 

@@ -1,0 +1,3 @@
+2023-04-09 04:48:01,110 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 04:48:01,110 - kanban_board_info - INFO - DB Initiated
+2023-04-09 04:48:01,119 - kanban_board_info - INFO - Tables created on DB
