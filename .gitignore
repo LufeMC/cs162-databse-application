@@ -68,6 +68,14 @@ instance/
 # Scrapy stuff:
 .scrapy
 
+# Databases
+app.db
+tests/test.db
+
+# Logs
+log.txt
+log-test.txt
+
 # Sphinx documentation
 docs/_build/
 

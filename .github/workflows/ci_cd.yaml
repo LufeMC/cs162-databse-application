@@ -29,4 +29,4 @@ jobs:
           sleep 5
       - name: Test with unittest
         run: |
-          python3 -m unittest discover app/tests
+          python3 -m unittest discover tests
