@@ -4,7 +4,7 @@ from models.office import Office
 from models.listing import Listing
 from models.rate import Rate
 from models.commission import Commission
-from app import session
+from extensions import session
 from sqlalchemy import func, desc, or_
 from query_input import run_app
 import re
@@ -23,7 +23,9 @@ def format_usd(value):
     return "${:,.2f}".format(value)
 
 
-def get_top_5_offices_month(first_day_of_current_month, last_second_of_current_month):
+def get_top_5_offices_month(
+    first_day_of_current_month, last_second_of_current_month, session=session
+):
     """
     Returns the top 5 offices based on the count of orders made in a given month.
 
@@ -35,6 +37,7 @@ def get_top_5_offices_month(first_day_of_current_month, last_second_of_current_m
         list: A list of tuples where each tuple contains an Office object and the count of
         orders made in that office.
     """
+
     top_5_offices_month = (
         session.query(Office, func.count(Office.id))
         .join(User, Office.id == User.office_id)
@@ -51,7 +54,9 @@ def get_top_5_offices_month(first_day_of_current_month, last_second_of_current_m
     return top_5_offices_month
 
 
-def get_top_5_agents_month(first_day_of_current_month, last_second_of_current_month):
+def get_top_5_agents_month(
+    first_day_of_current_month, last_second_of_current_month, session=session
+):
     """
     Returns the top 5 agents based on the count of orders made in a given month.
 
@@ -78,7 +83,9 @@ def get_top_5_agents_month(first_day_of_current_month, last_second_of_current_mo
     return top_5_agents_month
 
 
-def get_averages(first_day_of_current_month, last_second_of_current_month):
+def get_averages(
+    first_day_of_current_month, last_second_of_current_month, session=session
+):
     """
     Returns the average price of sold listings and the average time between the
     date the listing was created and the date it was sold, in days, for a given month.
@@ -112,7 +119,9 @@ def get_averages(first_day_of_current_month, last_second_of_current_month):
     return averages
 
 
-def create_commissions(first_day_of_current_month, last_second_of_current_month):
+def create_commissions(
+    first_day_of_current_month, last_second_of_current_month, session=session
+):
     """
     Creates commission objects for each agent based on the orders they made in a given month.
 
@@ -132,7 +141,7 @@ def create_commissions(first_day_of_current_month, last_second_of_current_month)
     if len(existing_commissions) == 0:
         # Get all orders for the given month, and their corresponding agents and listing prices.
         month_orders = (
-            session.query(User, Listing.price)
+            session.query(User.id, User.name, Listing.price)
             .join(Order, User.id == Order.agent_id)
             .join(Listing, Order.listing_id == Listing.id)
             .filter(
@@ -142,14 +151,16 @@ def create_commissions(first_day_of_current_month, last_second_of_current_month)
             .order_by(User.id)
             .all()
         )
+        print(len(month_orders))
 
         agents_added = set()
         agents = {}
 
         # Calculate commission for each order, and sum the commissions for each agent.
         for order in month_orders:
-            order_price = order[1]
-            order_agent = order[0]
+            order_agent_id = order[0]
+            order_agent_name = order[1]
+            order_price = order[2]
             rate = (
                 session.query(Rate)
                 .filter(
@@ -160,16 +171,16 @@ def create_commissions(first_day_of_current_month, last_second_of_current_month)
             )
             total_commission = round(order_price * rate.rate, 2)
             commission = {
-                "agent_id": order_agent.id,
+                "agent_id": order_agent_id,
                 "total_commission": total_commission,
                 "month": last_second_of_current_month,
             }
 
-            if order_agent.id in agents_added:
-                agents[f"{order_agent.name}"]["total_commission"] += total_commission
+            if order_agent_id in agents_added:
+                agents[f"{order_agent_name}"]["total_commission"] += total_commission
             else:
-                agents_added.add(order_agent.id)
-                agents[f"{order_agent.name}"] = commission
+                agents_added.add(order_agent_id)
+                agents[f"{order_agent_name}"] = commission
 
         # Create a Commission object for each agent with the total commission for the month.
         for agent in agents.keys():
@@ -188,10 +199,12 @@ def create_commissions(first_day_of_current_month, last_second_of_current_month)
     return (False, [])
 
 
-run_app(
-    get_top_5_offices_month,
-    get_top_5_agents_month,
-    get_averages,
-    create_commissions,
-    format_usd,
-)
+if __name__ == "__main__":
+    # stuff only to run when not called via 'import' here
+    run_app(
+        get_top_5_offices_month,
+        get_top_5_agents_month,
+        get_averages,
+        create_commissions,
+        format_usd,
+    )

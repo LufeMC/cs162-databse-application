@@ -24,7 +24,7 @@ def createListings(numListings):
                 **{
                     "name": fake.street_name(),
                     "num_bedrooms": int(random.randint(1, 4)),
-                    "num_bethrooms": int(random.randint(1, 4)),
+                    "num_bathrooms": int(random.randint(1, 4)),
                     "garage": fake.pybool(),
                     "price": round(random.uniform(50000, 2000000), 2),
                     "zip_code": fake.postcode(),

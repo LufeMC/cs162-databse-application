@@ -2,7 +2,7 @@ from models.rate import Rate
 from extensions import session, info_logger, error_logger
 
 
-def createRates():
+def createRates(session=session):
     """
     Function that creates rates data in the database based on a dictionary
     of price ranges and their corresponding rates.

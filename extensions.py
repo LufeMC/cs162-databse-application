@@ -3,6 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 import logging
 from config import Config
+import os
 
 # Initializing db on SQLAlchemy
 engine = create_engine(Config.SQLALCHEMY_DATABASE_URI)

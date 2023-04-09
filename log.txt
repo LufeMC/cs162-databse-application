@@ -89,3 +89,72 @@
 2023-04-09 04:48:01,110 - kanban_board_info - INFO - File log for Kanban Board opened
 2023-04-09 04:48:01,110 - kanban_board_info - INFO - DB Initiated
 2023-04-09 04:48:01,119 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 14:24:26,142 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 14:24:26,143 - kanban_board_info - INFO - DB Initiated
+2023-04-09 14:24:26,154 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 14:24:26,158 - kanban_board_info - INFO - Rates data created
+2023-04-09 14:26:03,646 - kanban_board_info - INFO - Buyers data created
+2023-04-09 14:26:03,927 - kanban_board_info - INFO - Offices data created
+2023-04-09 14:26:07,872 - kanban_board_info - INFO - Agents data created
+2023-04-09 14:26:14,760 - kanban_board_info - INFO - Listings data created
+2023-04-09 14:26:14,861 - kanban_board_info - INFO - Orders data created
+2023-04-09 14:32:20,121 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 14:32:20,121 - kanban_board_info - INFO - DB Initiated
+2023-04-09 14:32:20,130 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 14:32:20,130 - kanban_board_info - INFO - Creating fake data
+2023-04-09 14:32:20,134 - kanban_board_info - INFO - Rates data created
+2023-04-09 14:33:58,804 - kanban_board_info - INFO - Buyers data created
+2023-04-09 14:33:59,100 - kanban_board_info - INFO - Offices data created
+2023-04-09 14:34:03,063 - kanban_board_info - INFO - Agents data created
+2023-04-09 14:34:10,173 - kanban_board_info - INFO - Listings data created
+2023-04-09 14:34:10,280 - kanban_board_info - INFO - Orders data created
+2023-04-09 14:34:34,737 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 14:34:34,737 - kanban_board_info - INFO - DB Initiated
+2023-04-09 14:34:34,746 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 14:34:34,746 - kanban_board_info - INFO - Creating fake data
+2023-04-09 14:34:34,751 - kanban_board_info - INFO - Rates data created
+2023-04-09 14:34:45,152 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 14:34:45,152 - kanban_board_info - INFO - DB Initiated
+2023-04-09 14:34:45,160 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 14:34:45,160 - kanban_board_info - INFO - Creating fake data
+2023-04-09 14:34:45,165 - kanban_board_info - INFO - Rates data created
+2023-04-09 14:35:30,288 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 14:35:30,288 - kanban_board_info - INFO - DB Initiated
+2023-04-09 14:35:30,296 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 14:35:30,296 - kanban_board_info - INFO - Creating fake data
+2023-04-09 14:35:30,301 - kanban_board_info - INFO - Rates data created
+2023-04-09 14:35:45,141 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 14:35:45,141 - kanban_board_info - INFO - DB Initiated
+2023-04-09 14:35:45,150 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 14:35:45,151 - kanban_board_info - INFO - Creating fake data
+2023-04-09 14:35:45,157 - kanban_board_info - INFO - Rates data created
+2023-04-09 14:36:23,204 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 14:36:23,205 - kanban_board_info - INFO - DB Initiated
+2023-04-09 14:36:23,212 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 14:36:23,212 - kanban_board_info - INFO - Creating fake data
+2023-04-09 14:36:23,218 - kanban_board_info - INFO - Rates data created
+2023-04-09 14:36:26,941 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 14:36:26,941 - kanban_board_info - INFO - DB Initiated
+2023-04-09 14:36:26,950 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 14:36:26,951 - kanban_board_info - INFO - Creating fake data
+2023-04-09 14:36:26,956 - kanban_board_info - INFO - Rates data created
+2023-04-09 14:37:03,551 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 14:37:03,552 - kanban_board_info - INFO - DB Initiated
+2023-04-09 14:37:03,561 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 14:37:03,561 - kanban_board_info - INFO - Creating fake data
+2023-04-09 14:37:03,566 - kanban_board_info - INFO - Rates data created
+2023-04-09 16:19:13,730 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:19:13,730 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:19:13,734 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:19:13,734 - kanban_board_info - INFO - Creating fake data
+2023-04-09 16:19:13,740 - kanban_board_info - INFO - Rates data created
+2023-04-09 16:20:53,838 - kanban_board_info - INFO - Buyers data created
+2023-04-09 16:20:54,125 - kanban_board_info - INFO - Offices data created
+2023-04-09 16:20:58,080 - kanban_board_info - INFO - Agents data created
+2023-04-09 16:21:05,001 - kanban_board_info - INFO - Listings data created
+2023-04-09 16:21:05,104 - kanban_board_info - INFO - Orders data created
+2023-04-09 16:21:31,755 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:21:31,755 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:21:31,765 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:21:31,765 - kanban_board_info - INFO - Creating fake data
+2023-04-09 16:21:31,770 - kanban_board_info - INFO - Rates data created

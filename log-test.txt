@@ -1,3 +1,1371 @@
 2023-04-09 04:48:01,110 - kanban_board_info - INFO - File log for Kanban Board opened
 2023-04-09 04:48:01,110 - kanban_board_info - INFO - DB Initiated
 2023-04-09 04:48:01,119 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 14:38:12,467 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 14:38:12,468 - kanban_board_info - INFO - DB Initiated
+2023-04-09 14:38:12,476 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 14:38:51,342 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 14:38:51,342 - kanban_board_info - INFO - DB Initiated
+2023-04-09 14:38:51,352 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:03:59,369 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:03:59,369 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:03:59,379 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:04:21,790 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:04:21,790 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:04:21,798 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:04:30,520 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:04:30,520 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:04:30,529 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:05:11,229 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:05:11,229 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:05:11,237 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:05:24,063 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:05:24,063 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:05:24,070 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:11:03,703 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:11:03,704 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:11:03,712 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:11:23,115 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:11:23,115 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:11:23,123 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:12:05,620 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:12:05,621 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:12:05,629 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:12:25,705 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:12:25,705 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:12:25,713 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:12:51,017 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:12:51,017 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:12:51,025 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:13:09,226 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:13:09,227 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:13:09,234 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:13:31,136 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:13:31,136 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:13:31,148 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:13:54,135 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:13:54,136 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:14:07,160 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:14:07,160 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:14:07,169 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:14:19,185 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:14:19,185 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:14:19,189 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:14:25,105 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:14:25,105 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:14:25,113 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:15:51,214 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:15:51,214 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:15:51,227 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:16:16,740 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:16:16,740 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:16:16,748 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:19:09,078 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:19:09,079 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:19:09,088 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:19:27,927 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:19:27,927 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:19:27,936 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 15:20:17,349 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 15:20:17,349 - kanban_board_info - INFO - DB Initiated
+2023-04-09 15:20:17,357 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:17:01,405 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:17:01,406 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:17:01,406 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:17:44,090 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:17:44,090 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:17:44,091 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:17:59,186 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:17:59,186 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:17:59,186 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:18:14,469 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:18:14,470 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:18:14,470 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:18:23,260 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:18:23,260 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:18:23,260 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:21:34,052 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:21:34,053 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:21:34,057 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:21:52,611 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:21:52,612 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:21:52,622 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:22:10,358 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:22:10,358 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:22:10,367 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:26:13,546 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:26:13,547 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:26:13,558 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:26:13,566 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:26:13,566 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:26:13,566 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:26:13,566 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:26:13,575 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:26:13,575 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:26:13,576 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:26:13,576 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:26:13,576 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:26:13,576 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:26:13,576 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:26:13,576 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:26:13,583 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:26:13,583 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:26:13,583 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:29:30,989 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:29:30,990 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:29:31,004 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:29:31,014 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:29:31,014 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:29:31,014 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:29:31,014 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:29:31,020 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:29:31,020 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:29:31,024 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:29:31,024 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:29:31,024 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:29:31,024 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:29:31,024 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:29:31,024 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:29:31,030 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:29:31,030 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:29:31,030 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:21,270 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:21,271 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:21,280 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:21,287 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:21,287 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:21,287 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:21,287 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:21,294 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:21,294 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:21,297 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:21,297 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:21,297 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:21,297 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:21,297 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:21,297 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:21,304 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:21,304 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:21,304 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:33,411 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:33,412 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:33,420 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:33,428 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:33,428 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:33,428 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:33,428 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:33,438 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:33,438 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:33,441 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:33,441 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:33,441 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:33,441 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:33,441 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:33,441 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:33,448 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:33,448 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:33,448 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:40,952 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:40,952 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:40,960 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:40,966 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:40,966 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:40,966 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:40,966 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:40,974 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:40,974 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:40,977 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:40,977 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:40,977 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:40,977 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:40,977 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:40,977 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:40,984 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:40,984 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:40,984 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:52,477 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:52,478 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:52,485 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:52,492 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:52,492 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:52,492 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:52,492 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:52,498 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:52,498 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:52,501 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:52,501 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:52,501 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:30:52,501 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:52,501 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:52,501 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:30:52,508 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:52,508 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:30:52,508 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:31:13,917 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:31:13,917 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:31:13,926 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:31:13,932 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:31:13,932 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:31:13,932 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:31:13,932 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:31:13,939 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:31:13,939 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:31:13,942 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:31:13,942 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:31:13,942 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:31:13,942 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:31:13,942 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:31:13,942 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:31:13,948 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:31:13,948 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:31:13,948 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:31:50,903 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:31:50,903 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:31:50,912 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:31:50,918 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:31:50,918 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:31:50,918 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:31:50,918 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:31:50,925 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:31:50,925 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:31:50,928 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:31:50,928 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:31:50,928 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:31:50,928 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:31:50,928 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:31:50,928 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:31:50,934 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:31:50,934 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:31:50,934 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:02,460 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:02,460 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:02,469 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:02,475 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:02,475 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:02,475 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:02,475 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:02,482 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:02,482 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:02,485 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:02,485 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:02,485 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:02,485 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:02,485 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:02,485 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:02,492 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:02,492 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:02,492 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:13,072 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:13,072 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:13,080 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:13,087 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:13,087 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:13,087 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:13,087 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:13,094 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:13,094 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:13,096 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:13,096 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:13,096 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:13,096 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:13,096 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:13,096 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:13,103 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:13,103 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:13,103 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:23,137 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:23,137 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:23,146 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:23,156 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:23,156 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:23,156 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:23,156 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:23,163 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:23,163 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:23,165 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:23,165 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:23,165 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:23,165 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:23,165 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:23,165 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:23,173 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:23,173 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:23,173 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:33,756 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:33,756 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:33,764 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:33,773 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:33,773 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:33,773 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:33,773 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:33,780 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:33,780 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:33,781 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:33,781 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:33,781 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:33,781 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:33,781 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:33,781 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:33,788 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:33,788 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:33,788 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:47,694 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:47,694 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:47,702 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:47,711 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:47,711 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:47,711 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:47,711 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:47,718 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:47,718 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:47,719 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:47,719 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:47,719 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:33:47,719 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:47,719 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:47,719 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:33:47,726 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:47,726 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:33:47,726 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:34:01,323 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:34:01,323 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:34:01,332 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:34:01,341 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:34:01,341 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:34:01,341 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:34:01,341 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:34:01,348 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:34:01,348 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:34:01,349 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:34:01,349 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:34:01,349 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:34:01,349 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:34:01,349 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:34:01,349 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:34:01,356 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:34:01,356 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:34:01,356 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:34:24,493 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:34:24,493 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:34:24,501 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:34:24,511 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:34:24,511 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:34:24,511 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:34:24,511 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:34:24,517 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:34:24,517 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:34:24,519 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:34:24,519 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:34:24,519 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:34:24,519 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:34:24,519 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:34:24,519 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:34:24,526 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:34:24,526 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:34:24,526 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:35:17,391 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:35:17,392 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:35:17,400 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:35:17,410 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:35:17,410 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:35:17,410 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:35:17,410 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:35:17,419 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:35:17,419 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:35:17,421 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:35:17,421 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:35:17,421 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:35:17,421 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:35:17,421 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:35:17,421 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:35:17,428 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:35:17,428 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:35:17,428 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:43:22,461 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:43:22,461 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:43:22,475 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:43:22,485 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:43:22,485 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:43:22,485 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:43:22,485 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:43:22,492 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:43:22,492 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:43:22,493 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:43:22,493 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:43:22,493 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:43:22,493 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:43:22,493 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:43:22,493 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:43:22,500 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:43:22,500 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:43:22,500 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:47:07,619 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:47:07,619 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:47:07,627 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:47:07,637 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:47:07,637 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:47:07,644 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:47:07,646 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:47:07,646 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:47:07,646 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:47:07,646 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:47:07,653 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:47:07,653 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:47:42,870 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:47:42,870 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:47:42,879 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:47:42,888 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:47:42,888 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:47:42,895 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 16:47:42,897 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 16:47:42,897 - kanban_board_info - INFO - DB Initiated
+2023-04-09 16:47:42,904 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:07:21,348 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:07:21,348 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:07:21,358 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:07:21,359 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:07:21,359 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:07:21,366 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:07:21,375 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:07:21,375 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:07:21,382 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:07:21,384 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:07:21,384 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:07:21,391 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:07:54,469 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:07:54,469 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:07:54,477 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:07:54,483 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:07:54,483 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:07:54,489 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:07:54,496 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:07:54,496 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:07:54,503 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:07:54,504 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:07:54,504 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:07:54,511 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:08:21,369 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:08:21,370 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:08:21,385 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:08:21,392 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:08:21,392 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:08:21,400 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:08:21,405 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:08:21,406 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:08:21,413 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:08:21,414 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:08:21,414 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:08:21,421 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:08:27,737 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:08:27,737 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:08:27,744 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:08:27,751 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:08:27,751 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:08:27,757 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:08:27,764 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:08:27,764 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:08:27,770 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:08:27,772 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:08:27,772 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:08:27,781 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:08:46,387 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:08:46,387 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:08:46,397 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:08:46,405 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:08:46,405 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:08:46,415 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:08:46,421 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:08:46,421 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:08:46,428 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:08:46,429 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:08:46,429 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:08:46,436 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:11:07,306 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:11:07,306 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:11:07,315 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:11:07,321 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:11:07,321 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:11:07,330 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:11:07,336 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:11:07,336 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:11:07,352 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:11:07,354 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:11:07,354 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:11:07,363 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:11:07,364 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:11:07,364 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:11:07,372 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:11:07,374 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:11:07,374 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:11:07,382 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:11:07,385 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:11:07,385 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:11:07,392 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:11:07,393 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:11:07,393 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:11:07,400 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:27:50,627 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:27:50,628 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:27:50,638 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:27:50,645 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:27:50,645 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:27:50,655 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:27:50,662 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:27:50,662 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:27:50,671 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:27:50,673 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:27:50,673 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:27:50,680 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:27:50,682 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:27:50,682 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:27:50,689 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:27:50,690 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:27:50,690 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:27:50,698 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:27:50,700 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:27:50,700 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:27:50,707 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:27:50,709 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:27:50,709 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:27:50,715 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:27:50,717 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:27:50,717 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:27:50,723 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:27:50,725 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:27:50,725 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:27:50,731 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:27:50,732 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:27:50,732 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:27:50,739 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:23,572 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:23,572 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:23,581 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:23,588 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:23,588 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:23,595 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:23,598 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:23,598 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:23,606 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:23,608 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:23,608 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:23,615 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:23,622 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:23,622 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:23,630 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:23,632 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:23,632 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:23,638 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:23,639 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:23,639 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:23,646 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:23,647 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:23,647 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:23,654 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:23,655 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:23,655 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:23,662 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:23,664 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:23,664 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:23,670 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:23,672 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:23,672 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:23,680 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:23,681 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:23,681 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:23,687 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:23,688 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:23,688 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:23,695 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:23,698 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:23,698 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:23,705 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:56,049 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:56,050 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:56,060 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:56,068 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:56,068 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:56,084 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:56,088 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:56,088 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:56,100 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:56,106 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:56,106 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:56,114 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:56,115 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:56,116 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:56,123 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:56,125 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:56,125 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:56,132 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:56,133 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:56,133 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:56,140 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:56,141 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:56,142 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:56,148 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:56,150 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:56,150 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:56,157 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:56,159 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:56,159 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:56,166 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:56,168 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:56,168 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:56,175 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:29:56,176 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:29:56,176 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:29:56,182 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:09,271 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:09,272 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:09,281 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:09,288 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:09,288 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:09,296 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:09,300 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:09,300 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:09,307 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:09,309 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:09,310 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:09,317 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:09,324 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:09,324 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:09,331 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:09,333 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:09,333 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:09,339 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:09,341 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:09,341 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:09,348 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:09,350 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:09,350 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:09,356 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:09,358 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:09,358 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:09,365 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:09,367 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:09,367 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:09,374 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:09,375 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:09,375 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:09,383 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:09,385 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:09,385 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:09,392 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:09,393 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:09,393 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:09,399 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:15,977 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:15,977 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:15,984 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:15,991 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:15,991 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:15,998 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:16,001 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:16,001 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:16,008 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:16,011 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:16,011 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:16,018 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:16,020 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:16,020 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:16,027 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:16,033 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:16,034 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:16,040 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:16,041 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:16,042 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:16,049 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:16,050 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:16,050 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:16,057 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:16,058 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:16,058 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:16,065 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:16,067 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:16,067 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:16,073 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:16,075 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:16,075 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:16,084 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:16,085 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:16,086 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:16,094 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:16,097 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:16,097 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:16,107 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:30:16,107 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:30:16,107 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:30:16,114 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:35:33,091 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:35:33,091 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:35:33,100 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:35:33,107 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:35:33,107 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:35:33,114 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:35:33,116 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:35:33,117 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:35:33,124 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:35:33,129 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:35:33,129 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:35:33,138 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:35:33,141 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:35:33,141 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:35:33,148 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:35:33,155 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:35:33,155 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:35:33,162 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:35:33,163 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:35:33,163 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:35:33,171 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:35:33,173 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:35:33,173 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:35:33,179 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:35:33,181 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:35:33,181 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:35:33,188 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:35:33,190 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:35:33,190 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:35:33,196 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:35:33,199 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:35:33,199 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:35:33,206 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:35:33,207 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:35:33,207 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:35:33,214 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:35:33,216 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:35:33,216 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:35:33,224 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:35:33,227 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:35:33,227 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:35:33,234 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:35:33,236 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:35:33,236 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:35:33,249 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:36:04,832 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:36:04,832 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:36:04,840 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:36:04,847 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:36:04,847 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:36:04,854 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:36:04,858 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:36:04,858 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:36:04,867 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:36:04,871 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:36:04,871 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:36:04,878 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:36:04,881 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:36:04,881 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:36:04,888 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:36:04,894 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:36:04,894 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:36:04,901 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:36:04,903 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:36:04,903 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:36:04,910 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:36:04,911 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:36:04,911 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:36:04,918 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:36:04,920 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:36:04,920 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:36:04,927 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:36:04,930 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:36:04,930 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:36:04,937 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:36:04,940 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:36:04,940 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:36:04,946 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:36:04,948 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:36:04,948 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:36:04,955 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:36:04,957 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:36:04,957 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:36:04,965 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:36:04,971 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:36:04,971 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:36:04,986 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:36:04,987 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:36:04,987 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:36:04,996 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:21,673 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:21,673 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:21,684 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:21,691 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:21,691 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:21,700 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:21,704 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:21,704 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:21,711 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:21,714 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:21,714 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:21,721 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:21,724 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:21,724 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:21,731 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:21,738 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:21,738 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:21,745 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:21,747 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:21,747 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:21,754 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:21,756 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:21,756 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:21,762 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:21,763 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:21,763 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:21,770 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:21,775 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:21,775 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:21,783 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:21,786 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:21,786 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:21,792 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:21,794 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:21,794 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:21,801 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:21,803 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:21,803 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:21,814 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:21,818 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:21,818 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:21,825 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:21,826 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:21,826 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:21,833 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:33,534 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:33,535 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:33,544 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:33,551 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:33,551 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:33,558 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:33,562 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:33,562 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:33,574 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:33,577 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:33,577 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:33,584 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:33,586 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:33,587 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:33,594 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:33,601 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:33,601 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:33,608 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:33,609 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:33,609 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:33,616 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:33,618 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:33,618 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:33,624 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:33,626 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:33,626 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:33,633 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:33,639 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:33,639 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:33,646 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:33,648 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:33,648 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:33,655 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:33,656 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:33,656 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:33,663 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:33,664 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:33,664 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:33,671 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:33,674 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:33,674 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:33,680 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 17:37:33,681 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 17:37:33,681 - kanban_board_info - INFO - DB Initiated
+2023-04-09 17:37:33,688 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 21:51:11,228 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 21:51:11,229 - kanban_board_info - INFO - DB Initiated
+2023-04-09 21:51:11,238 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 21:51:11,243 - kanban_board_info - INFO - Rates data created
+2023-04-09 21:51:50,350 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 21:51:50,350 - kanban_board_info - INFO - DB Initiated
+2023-04-09 21:51:50,359 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 21:51:50,364 - kanban_board_info - INFO - Rates data created
+2023-04-09 21:52:27,847 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 21:52:27,847 - kanban_board_info - INFO - DB Initiated
+2023-04-09 21:52:27,857 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 21:52:27,862 - kanban_board_info - INFO - Rates data created
+2023-04-09 21:54:04,713 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 21:54:04,714 - kanban_board_info - INFO - DB Initiated
+2023-04-09 21:54:04,724 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 21:54:04,729 - kanban_board_info - INFO - Rates data created
+2023-04-09 21:57:38,068 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 21:57:38,068 - kanban_board_info - INFO - DB Initiated
+2023-04-09 21:57:38,077 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 21:57:38,082 - kanban_board_info - INFO - Rates data created
+2023-04-09 21:58:27,441 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 21:58:27,442 - kanban_board_info - INFO - DB Initiated
+2023-04-09 21:58:27,451 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 21:58:27,456 - kanban_board_info - INFO - Rates data created
+2023-04-09 21:58:40,671 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 21:58:40,671 - kanban_board_info - INFO - DB Initiated
+2023-04-09 21:58:40,680 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 21:58:40,687 - kanban_board_info - INFO - Rates data created
+2023-04-09 21:58:50,879 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 21:58:50,879 - kanban_board_info - INFO - DB Initiated
+2023-04-09 21:58:50,887 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 21:58:50,892 - kanban_board_info - INFO - Rates data created
+2023-04-09 21:59:24,464 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 21:59:24,465 - kanban_board_info - INFO - DB Initiated
+2023-04-09 21:59:24,475 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 21:59:24,481 - kanban_board_info - INFO - Rates data created
+2023-04-09 21:59:53,285 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 21:59:53,285 - kanban_board_info - INFO - DB Initiated
+2023-04-09 21:59:53,295 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 21:59:53,300 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:00:48,573 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:00:48,573 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:00:48,584 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:00:48,590 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:00:50,885 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:00:50,885 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:00:50,894 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:00:50,899 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:00:52,247 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:00:52,248 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:00:52,256 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:00:52,261 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:01:11,446 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:01:11,446 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:01:11,456 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:01:11,461 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:01:37,522 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:01:37,522 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:01:37,531 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:01:37,536 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:02:11,912 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:02:11,913 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:02:11,921 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:02:11,927 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:02:37,012 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:02:37,012 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:02:37,022 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:02:37,027 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:02:45,194 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:02:45,194 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:02:45,207 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:02:45,211 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:02:49,508 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:02:49,508 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:02:49,517 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:02:49,522 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:03:30,509 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:03:30,510 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:03:30,522 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:03:30,528 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:03:59,866 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:03:59,866 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:03:59,875 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:03:59,880 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:04:14,746 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:04:14,746 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:04:14,757 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:04:14,763 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:04:19,093 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:04:19,094 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:04:19,101 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:04:19,107 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:04:57,497 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:04:57,498 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:04:57,507 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:04:57,512 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:07:05,141 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:07:05,141 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:07:05,156 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:07:05,162 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:07:30,463 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:07:30,463 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:07:30,472 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:07:30,477 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:08:08,482 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:08:08,482 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:08:08,493 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:08:08,499 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:08:08,560 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:08:08,560 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:08:08,567 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:08:08,568 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:08:19,273 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:08:19,273 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:08:19,282 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:08:19,287 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:08:19,343 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:08:19,343 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:08:19,350 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:08:19,351 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:09:46,019 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:09:46,020 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:09:46,029 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:09:46,034 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:09:46,098 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:09:46,098 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:09:46,105 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:09:46,107 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:09:46,171 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:09:46,171 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:09:46,178 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:09:46,180 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:10:45,988 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:10:45,989 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:10:45,998 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:10:46,003 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:10:46,059 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:10:46,059 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:10:46,066 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:10:46,067 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:10:46,131 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:10:46,131 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:10:46,138 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:10:46,139 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:10:46,194 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:10:46,194 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:10:46,202 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:10:46,203 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:14:48,849 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:14:48,849 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:14:48,858 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:14:48,865 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:14:48,925 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:14:48,925 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:14:48,933 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:14:48,934 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:14:48,988 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:14:48,988 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:14:48,995 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:14:48,997 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:14:49,062 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:14:49,062 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:14:49,069 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:14:49,070 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:14:49,128 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:14:49,128 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:14:49,135 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:14:49,136 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:15:13,382 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:15:13,382 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:15:13,391 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:15:13,397 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:15:13,453 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:15:13,453 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:15:13,460 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:15:13,461 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:15:13,515 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:15:13,515 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:15:13,523 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:15:13,524 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:15:13,585 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:15:13,585 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:15:13,593 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:15:13,594 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:15:13,647 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:15:13,647 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:15:13,655 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:15:13,656 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:15:32,790 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:15:32,791 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:15:32,800 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:15:32,805 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:15:32,870 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:15:32,870 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:15:32,877 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:15:32,878 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:15:32,938 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:15:32,938 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:15:32,946 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:15:32,947 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:15:33,016 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:15:33,016 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:15:33,023 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:15:33,024 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:15:33,084 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:15:33,084 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:15:33,090 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:15:33,091 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:16:32,099 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:16:32,100 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:16:32,111 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:16:32,122 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:16:32,184 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:16:32,184 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:16:32,191 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:16:32,192 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:16:32,246 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:16:32,246 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:16:32,253 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:16:32,254 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:16:32,311 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:16:32,311 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:16:32,318 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:16:32,319 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:16:32,379 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:16:32,379 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:16:32,386 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:16:32,387 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:17:32,189 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:17:32,189 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:17:32,201 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:17:32,207 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:17:32,275 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:17:32,275 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:17:32,282 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:17:32,283 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:17:32,341 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:17:32,341 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:17:32,349 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:17:32,350 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:17:32,411 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:17:32,411 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:17:32,417 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:17:32,418 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:17:32,480 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:17:32,480 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:17:32,487 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:17:32,488 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:17:58,914 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:17:58,915 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:17:58,924 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:17:58,929 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:17:58,996 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:17:58,997 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:17:59,004 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:17:59,005 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:17:59,066 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:17:59,066 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:17:59,073 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:17:59,074 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:17:59,137 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:17:59,137 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:17:59,143 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:17:59,144 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:17:59,205 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:17:59,205 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:17:59,211 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:17:59,213 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:18:26,636 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:18:26,636 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:18:26,646 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:18:26,651 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:18:26,719 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:18:26,719 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:18:26,726 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:18:26,727 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:18:26,788 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:18:26,788 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:18:26,797 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:18:26,798 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:18:26,860 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:18:26,860 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:18:26,867 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:18:26,868 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:18:26,929 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:18:26,929 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:18:26,935 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:18:26,937 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:19:05,513 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:19:05,513 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:19:05,524 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:19:05,529 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:19:05,590 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:19:05,590 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:19:05,597 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:19:05,598 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:19:05,652 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:19:05,652 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:19:05,660 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:19:05,661 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:19:05,718 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:19:05,718 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:19:05,727 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:19:05,729 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:19:05,814 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:19:05,814 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:19:05,823 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:19:05,824 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:19:22,986 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:19:22,986 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:19:22,995 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:19:23,000 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:19:23,059 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:19:23,059 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:19:23,066 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:19:23,067 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:19:23,122 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:19:23,122 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:19:23,129 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:19:23,130 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:19:23,190 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:19:23,190 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:19:23,198 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:19:23,199 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:19:23,257 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:19:23,257 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:19:23,265 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:19:23,266 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:19:59,413 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:19:59,413 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:19:59,423 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:19:59,428 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:19:59,494 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:19:59,494 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:19:59,514 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:19:59,515 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:19:59,583 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:19:59,583 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:19:59,590 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:19:59,591 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:19:59,648 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:19:59,648 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:19:59,655 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:19:59,656 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:19:59,714 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:19:59,714 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:19:59,721 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:19:59,723 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:20:53,693 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:20:53,693 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:20:53,703 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:20:53,709 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:20:53,774 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:20:53,774 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:20:53,780 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:20:53,782 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:20:53,838 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:20:53,838 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:20:53,845 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:20:53,846 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:20:53,901 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:20:53,901 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:20:53,909 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:20:53,910 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:20:53,967 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:20:53,967 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:20:53,975 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:20:53,976 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:22:03,127 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:22:03,128 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:22:03,138 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:22:03,143 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:22:03,204 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:22:03,205 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:22:03,212 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:22:03,213 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:22:03,266 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:22:03,266 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:22:03,273 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:22:03,275 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:22:03,336 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:22:03,336 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:22:03,343 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:22:03,344 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:22:03,397 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:22:03,397 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:22:03,404 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:22:03,405 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:22:27,095 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:22:27,095 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:22:27,104 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:22:27,110 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:22:27,189 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:22:27,189 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:22:27,196 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:22:27,197 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:22:27,259 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:22:27,259 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:22:27,265 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:22:27,266 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:22:27,326 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:22:27,326 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:22:27,333 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:22:27,334 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:22:27,393 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:22:27,393 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:22:27,400 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:22:27,401 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:24:05,854 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:05,854 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:05,868 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:05,879 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:24:05,939 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:05,939 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:05,946 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:05,948 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:24:06,004 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:06,004 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:06,012 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:06,013 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:24:06,081 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:06,081 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:06,088 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:06,089 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:24:06,144 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:06,144 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:06,151 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:06,152 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:24:25,766 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:25,766 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:25,774 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:25,781 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:25,781 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:25,788 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:25,791 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:25,791 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:25,798 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:25,801 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:25,801 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:25,808 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:25,811 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:25,811 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:25,818 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:25,825 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:25,825 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:25,833 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:25,835 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:25,835 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:25,844 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:25,845 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:25,845 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:25,853 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:25,854 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:25,854 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:25,866 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:25,875 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:25,875 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:25,882 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:25,884 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:25,884 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:25,892 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:25,894 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:24:25,950 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:25,950 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:25,959 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:25,960 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:24:26,016 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:26,017 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:26,025 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:26,026 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:24:26,088 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:26,088 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:26,095 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:26,096 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:24:26,150 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:26,150 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:26,157 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:26,159 - kanban_board_info - INFO - Rates data created
+2023-04-09 22:24:26,214 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:26,214 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:26,221 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:26,222 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:26,222 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:26,230 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:26,231 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:26,231 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:26,238 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:26,241 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:26,241 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:26,248 - kanban_board_info - INFO - Tables created on DB
+2023-04-09 22:24:26,249 - kanban_board_info - INFO - File log for Kanban Board opened
+2023-04-09 22:24:26,249 - kanban_board_info - INFO - DB Initiated
+2023-04-09 22:24:26,255 - kanban_board_info - INFO - Tables created on DB
