@@ -6,6 +6,8 @@
 
 `/app.py` main application that creates models and fake data.
 
+`/fakeData` contains the code that creates the fake data in the database
+
 `/models` contains the DB models using SQLAlchemy.
 
 `/extensions.py` contains build-in extensions that are initialized in `app.py`.
